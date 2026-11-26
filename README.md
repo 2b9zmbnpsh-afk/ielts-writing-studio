@@ -8,17 +8,17 @@
 一个免费的、本地优先的 IELTS Academic 写作学习空间。  
 A free, local-first workspace for IELTS Academic writing practice and language learning.
 
-`v1.8.0-beta` · `Public Beta` · `Local-first` · `No Login`
+`v1.8.1-beta` · `Public Beta` · `Local-first` · `No Login`
 
-**[在线体验 · Live Demo](https://2b9zmbnpsh-afk.github.io/ielts-writing-studio/)** &nbsp;|&nbsp; **[下载离线版 · Download](https://github.com/2b9zmbnpsh-afk/ielts-writing-studio/releases/download/v1.8.0-beta/index.html)** &nbsp;|&nbsp; [版本发布 · Releases](https://github.com/2b9zmbnpsh-afk/ielts-writing-studio/releases)
+**[在线体验 · Live Demo](https://2b9zmbnpsh-afk.github.io/ielts-writing-studio/)** &nbsp;|&nbsp; **[下载离线版 · Download](https://github.com/2b9zmbnpsh-afk/ielts-writing-studio/releases)** &nbsp;|&nbsp; [版本发布 · Releases](https://github.com/2b9zmbnpsh-afk/ielts-writing-studio/releases)
 
 </div>
 
 ---
 
-![IELTS Writing Studio V1.8 首页：写作工作台、快速开始和每日写作积累](preview-home.png)
+![IELTS Writing Studio V1.8.1 首页：写作工作台、快速开始和每日写作积累](preview-home.png)
 
-*学术书房风格 · Academic Edition | V1.8 测试工作区界面*
+*学术书房风格 · Academic Edition | V1.8.1 测试工作区界面*
 
 ## 关于项目 · About
 
@@ -39,7 +39,18 @@ A free, local-first workspace for IELTS Academic writing practice and language l
 | 每日写作积累 · Daily Notes | 按日期轮换词汇、搭配、句式、佳句、图表表达及论证素材；支持分类、手动切换与收藏。 |
 | 写作素材库 · Materials | 浏览 177 条内置学习卡片；支持 JSON、TXT、CSV 导入、搜索、筛选及独立导出。 |
 | 导入管理 · Import History | 记录新导入批次，支持外部词条单独删除与整批删除；保留内置素材和已收藏到笔记的内容。 |
+| 使用指南与示例 · Help & Demo | 首次使用引导、六个帮助章节、可选原创示例及一键清除、社区入口。 |
 | 本地备份 · Backup | 导出完整 JSON 工作区备份，并在需要时恢复。 |
+
+## V1.8.1 · Community Edition
+
+新增使用指南、社区反馈入口与原创演示资料，保留 V1.8 原有功能与数据库结构。
+
+![V1.8.1 使用指南](preview-guide.png)
+
+**首次体验：** 打开使用指南 → 加载示例资料，即可查看两篇作文、每篇三条示例精批、修改稿、对应参考范文和五条笔记。示例为原创教学内容，Task 1 数据为虚构，不是官方真题或评分。清除示例会删除带标记的示例记录（包括直接编辑），独立创建的个人资料保留，指向被删除示例的关联会解除。
+
+![V1.8.1 示例逐句精批](preview-demo-review.png)
 
 ## 界面预览 · Screenshots
 
@@ -55,7 +66,7 @@ A free, local-first workspace for IELTS Academic writing practice and language l
 
 每次新导入都有独立记录，方便管理不同来源的素材。旧版未记录批次的素材只能按来源归组，无法还原真实导入时间或批次。
 
-*以上为 V1.8 浏览器渲染的测试界面，使用空白或演示数据，不包含个人学习资料。*
+*素材库与导入记录图片为 V1.8 界面；其他为 V1.8.1。截图使用模拟存储及演示数据，不含真实个人学习资料。*
 
 ## 开始使用 · Getting Started
 
@@ -65,7 +76,7 @@ A free, local-first workspace for IELTS Academic writing practice and language l
 
 ### 离线使用
 
-1. 在 [v1.8.0-beta 发布页面](https://github.com/2b9zmbnpsh-afk/ielts-writing-studio/releases/tag/v1.8.0-beta) 的 Assets 中下载 `index.html`。
+1. 在 [版本发布页面](https://github.com/2b9zmbnpsh-afk/ielts-writing-studio/releases) 中选择所需版本，在 Assets 下载 `index.html`。
 2. 使用浏览器打开文件。
 3. 如浏览器限制本地文件的数据库存储，请使用在线版，并确认页面显示本地数据库已连接。
 
@@ -114,7 +125,7 @@ V1.8 内置 177 条原创整理的学习卡片，覆盖学术词汇、固定搭�
 
 HTML · CSS · Vanilla JavaScript · IndexedDB · GitHub Pages
 
-单文件应用，无需构建工具或应用后端。公开测试版仍需持续进行功能、兼容性与安全检查。
+单文件应用，无需构建工具或应用后端。公开测试版仍需持续进行功能、兼容性与安全检查。V1.8.1 已通过 JavaScript 语法及 Chromium 模拟存储交互测试；真实浏览器 IndexedDB 持久化、跨浏览器以及素材授权仍需确认。
 
 ## 声明与许可 · Disclaimer & License
 
